@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Make URI encoding easier"
   spec.description   = "User can encode URI easily with no need to care about absolete warning"
-  spec.homepage      = "https://feed-mob/encodable"
+  spec.homepage      = "https://github.com/feed-mob/encodable"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
