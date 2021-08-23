@@ -10,15 +10,15 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Make URI encoding easier"
   spec.description   = "User can encode URI easily with no need to care about absolete warning"
-  spec.homepage      = "https://github.com/feed-mob/encodable"
+  spec.homepage      = "https://github.com/feed-mob/fb_encodable"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   spec.metadata["allowed_push_host"] = ""
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/feed-mob/encodable"
-  spec.metadata["changelog_uri"] = "https://github.com/feed-mob/encodable/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/feed-mob/fb_encodable"
+  spec.metadata["changelog_uri"] = "https://github.com/feed-mob/fb_encodable/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
