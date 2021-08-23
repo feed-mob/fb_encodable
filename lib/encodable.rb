@@ -5,7 +5,7 @@ require_relative "encodable/version"
 module Encodable
   class Error < StandardError; end
 
-  class uri
+  class UrlEncode
     attr_reader :domain, :original_query
 
     def initialize(url)
@@ -13,7 +13,7 @@ module Encodable
     end
 
     def call
-      return domain || '' if original_query.blank?
+      return domain || '' if original_query.nil? || original_query.empty?
 
       "#{domain}?#{encode_params}"
     end
