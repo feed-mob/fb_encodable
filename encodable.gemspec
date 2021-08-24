@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = "User can encode URI easily with no need to care about absolete warning"
   spec.homepage      = "https://github.com/feed-mob/fb_encodable"
   spec.license       = "MIT"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.5.0")
 
   spec.metadata["allowed_push_host"] = ""
 
