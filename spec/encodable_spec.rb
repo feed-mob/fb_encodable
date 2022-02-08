@@ -36,4 +36,13 @@ RSpec.describe Encodable do
       end
     end
   end
+
+  describe '.encode_params' do
+    context 'when url has no params' do
+      it 'should return with blank string' do
+        url = 'http://test.com'
+        expect(described_class::UrlEncode.new(url).send(:encode_params)).to eq ''
+      end
+    end
+  end
 end

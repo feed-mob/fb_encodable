@@ -9,7 +9,7 @@ module Encodable
     attr_reader :domain, :original_query
 
     def initialize(url)
-      @domain, @original_query = url.split('?', 2)
+      @domain, @original_query = url.include?("?") ? url.split('?', 2) : [url, ""]
     end
 
     def call
